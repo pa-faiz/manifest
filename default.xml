@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <!-- Local Remote -->
+  <remote name="my-uvite"
+          fetch="https://github.com/fazilsheik96"
+          revision="uvite" />
+  
+  <remote name="my-gitlab"
+          fetch="https://gitlab.com/mohdfazil130155"
+          revision="uvite" />
+
   <!-- AOSP -->
   <remote name="aosp"
           fetch="https://android.googlesource.com"
