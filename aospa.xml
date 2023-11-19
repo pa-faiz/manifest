@@ -93,7 +93,7 @@
   <project path="kernel/configs" name="AOSPA/android_kernel_configs" remote="aospa" />
 
   <!-- Manifest -->
-  <project path="manifest" name="AOSPA/manifest" remote="aospa" />
+  <project path="manifest" name="fazilsheik96/manifest" remote="my-uvite" revision="uvite" />
 
   <!-- Packages (AOSPA) -->
   <project path="packages/apps/ParanoidDoze" name="AOSPA/android_packages_apps_ParanoidDoze" remote="aospa" />
