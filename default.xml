@@ -47,8 +47,19 @@
   <remote  name="gitlab"
            fetch="https://gitlab.com" />
 
+  <!-- Local Remote -->
+  <remote  name="faiz"
+           fetch="https://github.com/pa-faiz"
+           revision="uvite" />
+
+  <remote  name="tea"
+           fetch="https://git.keksla.wtf/pa-fazil"
+           revision="uvite" />
+
   <include name="aosp.xml"/>
   <include name="aospa.xml"/>
+  <include name="pa-faiz.xml"/>
+  <include name="modules.xml"/>
   <include name="obsolete.xml"/>
 
 </manifest>
