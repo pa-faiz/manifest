@@ -71,6 +71,9 @@
   <remove-project name="AOSPA/manifest" />
   <project path="manifest" name="manifest" remote="faiz" />
 
+  <!-- OmniJaws -->
+  <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="faiz" revision="fifteen" />
+
   <!-- Packages -->
   <remove-project name="AOSPA/android_packages_apps_Launcher3" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="faiz" />
