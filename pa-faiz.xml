@@ -83,6 +83,9 @@
   <remove-project name="AOSPA/android_vendor_codeaurora_commonsys_telephony" />
   <project path="vendor/codeaurora/commonsys/telephony" name="android_vendor_codeaurora_commonsys_telephony" remote="faiz" />
 
+  <!-- OmniJaws -->
+  <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="faiz" revision="fourteen" />
+
   <!-- Recovery -->
   <remove-project name="AOSPA/android_bootable_recovery" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="faiz" />
