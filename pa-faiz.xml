@@ -37,6 +37,11 @@
     <linkfile dest="vendor/qcom/build/tasks/kernel_definitions.mk" src="kernel_definitions.mk"/>
   </project>
 
+  <!-- DesktopMode -->
+  <project path="packages/apps/DesktopMode" name="platform_packages_apps_DesktopMode" remote="faiz" />
+  <project path="packages/services/VncFlinger" name="platform_packages_services_VncFlinger" remote="faiz" />
+  <project path="external/tigervnc" name="LMODroid/platform_external_tigervnc" remote="github" revision="fifteen-qpr0" />
+
   <!-- External -->
   <remove-project name="platform/external/mksh" />
   <project path="external/mksh" name="android_external_mksh" remote="faiz" />
