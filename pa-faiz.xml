@@ -143,5 +143,7 @@
   <project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_commonsys_system_bt" remote="faiz" />
   <remove-project name="AOSPA/android_vendor_qcom-opensource_packages_apps_Bluetooth" />
   <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="android_vendor_qcom-opensource_packages_apps_Bluetooth" remote="faiz" />
+  <remove-project name="AOSPA/android_hardware_qcom_wlan" />
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="faiz" />
 
 </manifest>
