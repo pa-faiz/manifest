@@ -92,6 +92,9 @@
   <remove-project name="AOSPA/android_vendor_codeaurora_commonsys_telephony" />
   <project path="vendor/codeaurora/commonsys/telephony" name="android_vendor_codeaurora_commonsys_telephony" remote="faiz" />
 
+  <!-- KProfiles -->
+  <project path="packages/apps/KProfiles" name="packages_apps_KProfiles" remote="faiz" />
+
   <!-- OmniJaws -->
   <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="faiz" revision="fourteen" />
 
