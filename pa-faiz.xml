@@ -147,5 +147,7 @@
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="faiz" />
   <remove-project name="AOSPA/android_vendor_qcom-opensource_power" />
   <project path="vendor/qcom/opensource/power" name="android_vendor_qcom-opensource_power" remote="faiz" />
+  <remove-project name="AOSPA/android_device_qcom_sepolicy_vndr" />
+  <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="faiz" />
 
 </manifest>
