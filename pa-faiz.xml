@@ -110,6 +110,12 @@
   <remove-project name="platform/external/rust/crates/ring" />
   <project path="external/rust/crates/ring" name="rd-stuffs/external_rust_crates_ring" remote="github" revision="uvite" />
 
+  <!-- Extract tools/utils -->
+  <remove-project name="AOSPA/android_tools_extract-utils" />
+  <project path="tools/extract-utils" name="LineageOS/android_tools_extract-utils" remote="github" revision="lineage-21.0" />
+  <remove-project name="AOSPA/android_prebuilts_extract-tools" />
+  <project path="prebuilts/extract-tools" name="LineageOS/android_prebuilts_extract-tools" remote="github" revision="lineage-21.0" />
+
   <!-- System -->
   <remove-project name="AOSPA/android_system_core" />
   <project path="system/core" name="android_system_core" remote="faiz" />
