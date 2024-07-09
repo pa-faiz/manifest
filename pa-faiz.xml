@@ -116,6 +116,9 @@
   <remove-project name="AOSPA/android_prebuilts_extract-tools" />
   <project path="prebuilts/extract-tools" name="LineageOS/android_prebuilts_extract-tools" remote="github" revision="lineage-21.0" />
 
+  <!-- Signatures -->
+  <project path="vendor/aospa/signing/keys" name="pa-faiz/Signing_keys" remote="github-ssh" revision="main" />
+
   <!-- System -->
   <remove-project name="AOSPA/android_system_core" />
   <project path="system/core" name="android_system_core" remote="faiz" />
