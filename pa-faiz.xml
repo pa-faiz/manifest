@@ -98,6 +98,8 @@
   <!-- Recovery -->
   <remove-project name="AOSPA/android_bootable_recovery" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="faiz" />
+  <remove-project name="platform/external/gptfdisk" />
+  <project path="external/gptfdisk" name="android_external_gptfdisk" remote="faiz" />
 
   <!-- LTO -->
   <remove-project name="AOSPA/android_external_boringssl" />
