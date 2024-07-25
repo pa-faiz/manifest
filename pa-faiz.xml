@@ -139,6 +139,8 @@
   <remove-project name="AOSPA/vendor_aospa_apps_ParanoidThemePicker" />
   <project path="vendor/aospa/apps/ParanoidThemePicker" name="vendor_aospa_apps_ParanoidThemePicker" remote="faiz" />
   <project path="vendor/aospa/apps/Glimpse" name="LineageOS/android_packages_apps_Glimpse" remote="github" revision="lineage-21.0" />
+  <remove-project name="android_vendor_google_pixel" />
+  <project path="vendor/google/pixel" name="gotenksIN/android_vendor_google_pixel" remote="github" revision="uvite" />
 
   <!-- Vendor (QCOM QSSI) -->
   <remove-project name="AOSPA/android_vendor_qcom_opensource_commonsys-intf_display" />
