@@ -25,6 +25,9 @@
   <project path="external/calyx/chromium" name="CalyxOS/platform_external_calyx_chromium" remote="gitlab" revision="android14" clone-depth="1" />
   <project path="prebuilts/calyx/chromium/arm64" name="CalyxOS/platform_prebuilts_calyx_chromium_arm64" remote="gitlab" revision="android14" clone-depth="1" />
 
+  <!-- Ripple for Panic Button -->
+  <project path="packages/apps/Ripple" name="LMODroid/platform_packages_apps_Ripple" remote="github" revision="fourteen-qpr1" />
+
   <!-- Device -->
   <remove-project name="AOSPA/android_device_qcom_common" />
   <project path="device/qcom/common" name="android_device_qcom_common" remote="faiz" >
