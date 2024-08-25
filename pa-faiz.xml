@@ -104,6 +104,9 @@
   <!-- GameSpace -->
   <project path="packages/apps/GameSpace" name="platform_packages_apps_GameSpace" remote="faiz" revision="fourteen-qpr1" />
 
+  <!-- LMOFreeform -->
+  <project path="packages/apps/LMOFreeform" name="LMODroid/platform_packages_apps_LMOFreeform" remote="github" revision="fourteen-qpr1" />
+
   <!-- Recovery -->
   <remove-project name="AOSPA/android_bootable_recovery" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="faiz" />
