@@ -137,6 +137,8 @@
   <project path="system/extras" name="android_system_extras" remote="faiz" />
   <remove-project name="AOSPA/android_system_vold" />
   <project path="system/vold" name="android_system_vold" remote="faiz" />
+  <remove-project name="AOSPA/android_system_security" />
+  <project path="system/security" name="android_system_security" remote="faiz" />
 
   <!-- Toolchain -->
   <remove-project name="AOSPA/android_toolchain_pgo-profiles" />
