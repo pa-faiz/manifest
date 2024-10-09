@@ -2,8 +2,6 @@
 <manifest>
 
   <!-- Build and Core -->
-  <remove-project name="AOSPA/android_art" />
-  <project path="art" name="android_art" remote="faiz" />
   <remove-project name="AOSPA/android_bionic" />
   <project path="bionic" name="android_bionic" remote="faiz" />
   <remove-project name="AOSPA/android_build" />
@@ -20,6 +18,14 @@
     <linkfile src="root.bp" dest="Android.bp"/>
     <linkfile src="bootstrap.bash" dest="bootstrap.bash"/>
   </project>
+  <!--<remove-project name="platform/build/release" />
+  <project path="build/release" name="android_build_release" remote="faiz" />-->
+
+  <!-- Bootable -->
+  <remove-project name="AOSPA/android_bootable_deprecated-ota" />
+  <project path="bootable/deprecated-ota" name="android_bootable_deprecated-ota" remote="faiz" />
+  <remove-project name="AOSPA/android_bootable_recovery" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="faiz" />
 
   <!-- Device -->
   <remove-project name="AOSPA/android_device_qcom_common" />
@@ -32,18 +38,10 @@
   </project>
 
   <!-- External -->
-  <remove-project name="AOSPA/android_external_arm-optimized-routines" />
-  <project path="external/arm-optimized-routines" name="rd-stuffs/android_external_arm-optimized-routines" remote="github" revision="uvite" />
-  <remove-project name="AOSPA/android_external_sqlite" />
-  <project path="external/sqlite" name="rd-stuffs/android_external_sqlite" remote="github" revision="uvite" />
-  <remove-project name="platform/external/zlib" />
-  <project path="external/zlib" name="rd-stuffs/android_external_zlib" remote="github" revision="uvite" />
-  <remove-project name="AOSPA/android_external_wpa_supplicant_8" />
-  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="faiz" />
-  <remove-project name="AOSPA/android_external_skia" />
-  <project path="external/skia" name="android_external_skia" remote="faiz" />
-  <remove-project name="AOSPA/android_hardware_interfaces" />
-  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="faiz" />
+  <remove-project name="platform/external/mksh" />
+  <project path="external/mksh" name="android_external_mksh" remote="faiz" />
+  <remove-project name="platform/external/e2fsprogs" />
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="faiz" />
 
   <!-- Frameworks -->
   <remove-project name="AOSPA/android_frameworks_base" />
@@ -52,52 +50,51 @@
   <project path="frameworks/av" name="android_frameworks_av" remote="faiz" />
   <remove-project name="AOSPA/android_frameworks_native" />
   <project path="frameworks/native" name="android_frameworks_native" remote="faiz" />
-  <remove-project name="AOSPA/android_frameworks_opt_telephony" />
+  <remove-project name="platform/frameworks/opt/telephony" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="faiz" />
-  <remove-project name="AOSPA/android_frameworks_libs_systemui" />
-  <project path="frameworks/libs/systemui/" name="android_frameworks_libs_systemui/" remote="faiz" />
+  <remove-project name="platform/frameworks/libs/systemui" />
+  <project path="frameworks/libs/systemui" name="android_frameworks_libs_systemui" remote="faiz" />
+
+  <!-- Hardware -->
+  <remove-project name="AOSPA/android_hardware_interfaces" />
+  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="faiz" />
 
   <!-- Manifest -->
   <remove-project name="AOSPA/manifest" />
   <project path="manifest" name="manifest" remote="faiz" />
 
   <!-- Packages -->
-  <remove-project name="AOSPA/android_packages_apps_Launcher3" />
+  <remove-project name="platform/packages/apps/Launcher3" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="faiz" />
-  <remove-project name="AOSPA/android_packages_apps_Settings" />
+  <remove-project name="platform/packages/apps/Settings" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="faiz" />
+  <remove-project name="AOSPA/android_packages_apps_ParanoidSettings" />
   <project path="packages/apps/ParanoidSettings" name="android_packages_apps_ParanoidSettings" remote="faiz" />
   <project path="packages/apps/OpenDelta" name="packages_apps_OpenDelta" remote="faiz" />
-  <remove-project name="AOSPA/android_packages_apps_Paranoid_SystemUI" />
-  <project path="packages/apps/Paranoid/SystemUI" name="android_packages_apps_Paranoid_SystemUI" remote="faiz" />
-  <remove-project name="AOSPA/android_packages_services_Telecomm" />
+  <remove-project name="platform/packages/services/Telecomm" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="faiz" />
-  <remove-project name="AOSPA/android_packages_modules_Wifi" />
+  <remove-project name="platform/packages/modules/Wifi" />
   <project path="packages/modules/Wifi" name="android_packages_modules_Wifi" remote="faiz" />
-  <remove-project name="AOSPA/android_packages_modules_Connectivity" />
-  <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" remote="faiz" />
-  <remove-project name="AOSPA/android_packages_modules_Bluetooth" />
+  <remove-project name="platform/packages/modules/Connectivity" />
+  <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" remote="tea" />
+  <remove-project name="platform/packages/modules/Bluetooth" />
   <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="faiz" />
-  <remove-project name="AOSPA/android_packages_services_Telephony" />
-  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="faiz" />
-  <remove-project name="AOSPA/android_vendor_codeaurora_commonsys_telephony" />
-  <project path="vendor/codeaurora/commonsys/telephony" name="android_vendor_codeaurora_commonsys_telephony" remote="faiz" />
+  <project path="packages/apps/Aperture" name="LineageOS/android_packages_apps_Aperture" remote="github" revision="lineage-22.0" />
+  <remove-project name="platform/packages/modules/Permission" />
+  <project path="packages/modules/Permission" name="android_packages_modules_Permission" remote="faiz" />
 
-  <!-- Recovery -->
-  <remove-project name="AOSPA/android_bootable_recovery" />
-  <project path="bootable/recovery" name="android_bootable_recovery" remote="faiz" />
-
-  <!-- LTO -->
-  <remove-project name="AOSPA/android_external_boringssl" />
-  <project path="external/boringssl" name="android_external_boringssl" remote="faiz" />
-  <remove-project name="platform/external/rust/crates/ring" />
-  <project path="external/rust/crates/ring" name="rd-stuffs/external_rust_crates_ring" remote="github" revision="uvite" />
+  <!-- Signatures -->
+  <project path="vendor/aospa/signing/keys" name="pa-faiz/Signing_keys" remote="github-ssh" revision="main" />
 
   <!-- System -->
   <remove-project name="AOSPA/android_system_core" />
   <project path="system/core" name="android_system_core" remote="faiz" />
   <remove-project name="AOSPA/android_system_sepolicy" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="faiz" />
+  <remove-project name="platform/system/bpf" />
+  <project path="system/bpf" name="android_system_bpf" remote="faiz" />
+  <remove-project name="platform/system/update_engine" />
+  <project path="system/update_engine" name="android_system_update_engine" remote="faiz" />
 
   <!-- Vendor (pa-faiz) -->
   <remove-project name="AOSPA/android_vendor_aospa" />
@@ -106,19 +103,12 @@
   <project path="vendor/qcom/common" name="proprietary_vendor_qcom_common" remote="faiz" />
   <remove-project name="AOSPA/vendor_aospa_apps_ParanoidThemePicker" />
   <project path="vendor/aospa/apps/ParanoidThemePicker" name="vendor_aospa_apps_ParanoidThemePicker" remote="faiz" />
-  <project path="vendor/aospa/apps/Glimpse" name="LineageOS/android_packages_apps_Glimpse" remote="github" revision="lineage-21.0" />
+  <project path="vendor/aospa/apps/Glimpse" name="LineageOS/android_packages_apps_Glimpse" remote="github" revision="lineage-22.0" />
+  <remove-project name="android_vendor_google_pixel" />
+  <project path="vendor/google/pixel" name="android_vendor_google_pixel" remote="faiz" />
 
   <!-- Vendor (QCOM QSSI) -->
-  <remove-project name="AOSPA/android_vendor_qcom_opensource_commonsys-intf_display" />
-  <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_commonsys-intf_display" remote="faiz" >
-    <linkfile dest="vendor/qcom/defs/product-defs/system/display-product-system.mk" src="config/display-product-system.mk" />
-    <linkfile dest="vendor/qcom/defs/product-defs/vendor/display-interfaces-product.mk" src="config/display-interfaces-product.mk" />
-  </project>
-  <remove-project name="AOSPA/android_vendor_qcom-opensource_core-utils" />
-  <project path="vendor/qcom/opensource/core-utils" name="android_vendor_qcom-opensource_core-utils" remote="faiz" />
-  <remove-project name="AOSPA/android_vendor_qcom_opensource_commonsys_system_bt" />
-  <project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_commonsys_system_bt" remote="faiz" />
-  <remove-project name="AOSPA/android_vendor_qcom-opensource_packages_apps_Bluetooth" />
-  <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="android_vendor_qcom-opensource_packages_apps_Bluetooth" remote="faiz" />
+  <remove-project name="AOSPA/android_device_qcom_sepolicy_vndr" />
+  <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="faiz" />
 
 </manifest>

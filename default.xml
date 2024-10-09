@@ -59,7 +59,6 @@
   <include name="aosp.xml"/>
   <include name="aospa.xml"/>
   <include name="pa-faiz.xml"/>
-  <include name="modules.xml"/>
   <include name="obsolete.xml"/>
 
 </manifest>
