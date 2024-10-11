@@ -96,6 +96,10 @@
   <remove-project name="platform/system/update_engine" />
   <project path="system/update_engine" name="android_system_update_engine" remote="faiz" />
 
+  <!-- Tools -->
+  <remove-project name="AOSPA/android_tools_extract-utils" />
+  <project path="tools/extract-utils" name="android_tools_extract-utils" remote="faiz" />
+
   <!-- Vendor (pa-faiz) -->
   <remove-project name="AOSPA/android_vendor_aospa" />
   <project path="vendor/aospa" name="android_vendor_aospa" remote="faiz" />
