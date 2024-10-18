@@ -100,6 +100,10 @@
   <remove-project name="AOSPA/android_tools_extract-utils" />
   <project path="tools/extract-utils" name="android_tools_extract-utils" remote="faiz" />
 
+  <!-- Tools -->
+  <remove-project name="platform/packages/apps/Gallery2" />
+  <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" remote="aosp" />
+
   <!-- Vendor (pa-faiz) -->
   <remove-project name="AOSPA/android_vendor_aospa" />
   <project path="vendor/aospa" name="android_vendor_aospa" remote="faiz" />
