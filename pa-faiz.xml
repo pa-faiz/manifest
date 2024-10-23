@@ -88,6 +88,9 @@
   <remove-project name="platform/packages/modules/Permission" />
   <project path="packages/modules/Permission" name="android_packages_modules_Permission" remote="faiz" />
 
+  <!-- Panic Trigger -->
+  <project path="packages/apps/Ripple" name="platform_packages_apps_Ripple" remote="faiz" />
+
   <!-- Signatures -->
   <project path="vendor/aospa/signing/keys" name="pa-faiz/Signing_keys" remote="github-ssh" revision="main" />
 
