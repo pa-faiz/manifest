@@ -75,6 +75,7 @@
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="faiz" />
   <remove-project name="AOSPA/android_packages_apps_ParanoidSettings" />
   <project path="packages/apps/ParanoidSettings" name="android_packages_apps_ParanoidSettings" remote="faiz" />
+  <project path="packages/apps/ParanoidSystemUI" name="android_packages_apps_Paranoid_SystemUI" remote="faiz" />
   <project path="packages/apps/OpenDelta" name="packages_apps_OpenDelta" remote="faiz" />
   <remove-project name="platform/packages/services/Telecomm" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="faiz" />
