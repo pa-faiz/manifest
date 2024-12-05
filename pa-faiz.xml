@@ -31,6 +31,9 @@
   <remove-project name="platform/external/gptfdisk" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="faiz" />
 
+  <!-- Camelot -->
+  <project path="packages/apps/Camelot" name="LineageOS/android_packages_apps_Camelot" remote="github" revision="lineage-22.1" />
+
   <!-- Device -->
   <remove-project name="AOSPA/android_device_qcom_common" />
   <project path="device/qcom/common" name="android_device_qcom_common" remote="faiz" >
