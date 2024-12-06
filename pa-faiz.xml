@@ -112,6 +112,8 @@
   <project path="system/sepolicy" name="android_system_sepolicy" remote="faiz" />
   <remove-project name="platform/system/update_engine" />
   <project path="system/update_engine" name="android_system_update_engine" remote="faiz" />
+  <remove-project name="platform/system/libhidl" />
+  <project path="system/libhidl" name="android_system_libhidl" remote="faiz" />
 
   <!-- Vendor (pa-faiz) -->
   <remove-project name="AOSPA/android_vendor_aospa" />
