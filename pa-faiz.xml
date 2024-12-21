@@ -46,6 +46,8 @@
   <project path="external/tigervnc" name="LMODroid/platform_external_tigervnc" remote="github" revision="fifteen-qpr0" />
 
   <!-- External -->
+  <remove-project name="AOSPA/android_external_arm-optimized-routines" />
+  <project path="external/arm-optimized-routines" name="android_external_arm-optimized-routines" remote="faiz" />
   <remove-project name="platform/external/mksh" />
   <project path="external/mksh" name="android_external_mksh" remote="faiz" />
   <remove-project name="AOSPA/android_external_e2fsprogs" />
