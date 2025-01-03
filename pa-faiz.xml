@@ -111,6 +111,7 @@
   <project path="packages/modules/NetworkStack" name="android_packages_modules_NetworkStack" remote="faiz" />
   <remove-project name="platform/packages/providers/TelephonyProvider" />
   <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="faiz" />
+  <project path="packages/apps/Twelve" name="android_packages_apps_Twelve" remote="faiz" revision="lineage-22.1" />
 
   <!-- AOSOA-priv (signing & pif)
   <project path="vendor/aospa-priv" name="mohdfazil130155/vendor_aospa-priv" remote="gitlab-ssh" revision="vauxite" />-->
