@@ -127,8 +127,19 @@
   <!-- Vendor (QCOM QSSI) -->
   <remove-project name="platform/vendor/qcom-opensource/core-utils" />
   <project path="vendor/qcom/opensource/core-utils" name="android_vendor_qcom-opensource_core-utils" remote="faiz" />
+  <remove-project name="platform/vendor/nxp/opensource/external/libnfc-nci" />
+  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="android_vendor_nxp_opensource_external_libnfc-nci" remote="faiz" />
 
   <!-- Vendor (QCOM Vendor) -->
+  <remove-project name="platform/vendor/nxp/opensource/keymaster" />
+  <project path="vendor/nxp/opensource/keymaster" name="android_vendor_nxp_opensource_keymaster" remote="faiz" >
+    <linkfile dest="vendor/qcom/defs/board-defs/vendor/javacard-vendor-board.mk" src="keymaster/javacard_vendor_board.mk"/>
+    <linkfile dest="vendor/qcom/defs/product-defs/vendor/javacard-vendor-product.mk" src="keymaster/javacard_vendor_product.mk"/>
+    <linkfile dest="vendor/qcom/defs/board-defs/vendor/keymint-vendor-board.mk" src="keymint/keymint_vendor_board.mk"/>
+    <linkfile dest="vendor/qcom/defs/product-defs/vendor/keymint-vendor-product.mk" src="keymint/keymint_vendor_product.mk"/>
+    <linkfile dest="vendor/qcom/defs/board-defs/vendor/weaver-vendor-board.mk" src="weaver/weaver_vendor_board.mk"/>
+    <linkfile dest="vendor/qcom/defs/product-defs/vendor/weaver-vendor-product.mk" src="weaver/weaver_vendor_product.mk"/>
+  </project>
   <remove-project name="AOSPA/android_vendor_qcom-opensource_power" />
   <project path="vendor/qcom/opensource/power" name="android_vendor_qcom-opensource_power" remote="faiz" />
   <remove-project name="AOSPA/android_vendor_qcom-opensource_usb" />
