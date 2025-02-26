@@ -15,6 +15,8 @@
     <linkfile src="target" dest="build/target"/>
     <linkfile src="tools" dest="build/tools"/>
   </project>
+  <remove-project name="platform/build/blueprint" />
+  <project path="build/blueprint" name="android_build_blueprint" remote="faiz" />
   <remove-project name="AOSPA/android_build_soong" />
   <project path="build/soong" name="android_build_soong" remote="faiz" >
     <linkfile src="root.bp" dest="Android.bp"/>
@@ -44,6 +46,10 @@
   <project path="packages/apps/DesktopMode" name="platform_packages_apps_DesktopMode" remote="faiz" />
   <project path="packages/services/VncFlinger" name="platform_packages_services_VncFlinger" remote="faiz" />
   <project path="external/tigervnc" name="LMODroid/platform_external_tigervnc" remote="github" revision="fifteen-qpr0" />
+
+  <!-- Development -->
+  <remove-project name="platform/development" />
+  <project path="development" name="android_development" remote="faiz" />
 
   <!-- External -->
   <remove-project name="AOSPA/android_external_arm-optimized-routines" />
