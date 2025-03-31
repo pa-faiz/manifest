@@ -34,7 +34,7 @@
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="faiz" />
 
   <!-- Camelot -->
-  <project path="packages/apps/Camelot" name="LineageOS/android_packages_apps_Camelot" remote="github" revision="lineage-22.1" />
+  <project path="packages/apps/Camelot" name="LineageOS/android_packages_apps_Camelot" remote="github" revision="lineage-22.2" />
 
   <!-- Device -->
   <remove-project name="AOSPA/android_device_qcom_common" />
@@ -114,12 +114,12 @@
   <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" remote="faiz" />
   <remove-project name="platform/packages/services/Telephony" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="faiz" />
-  <project path="packages/apps/Aperture" name="LineageOS/android_packages_apps_Aperture" remote="github" revision="lineage-22.1" />
+  <project path="packages/apps/Aperture" name="LineageOS/android_packages_apps_Aperture" remote="github" revision="lineage-22.2" />
   <remove-project name="platform/packages/modules/NetworkStack" />
   <project path="packages/modules/NetworkStack" name="android_packages_modules_NetworkStack" remote="faiz" />
   <remove-project name="platform/packages/providers/TelephonyProvider" />
   <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="faiz" />
-  <project path="packages/apps/Twelve" name="android_packages_apps_Twelve" remote="faiz" revision="lineage-22.1" />
+  <project path="packages/apps/Twelve" name="android_packages_apps_Twelve" remote="faiz" revision="lineage-22.2" />
 
   <!-- AOSOA-priv (signing & pif)
   <project path="vendor/aospa-priv" name="mohdfazil130155/vendor_aospa-priv" remote="gitlab-ssh" revision="vauxite" />-->
@@ -141,7 +141,7 @@
   </project>
   <remove-project name="proprietary_vendor_qcom_common" />
   <project path="vendor/qcom/common" name="proprietary_vendor_qcom_common" remote="faiz" />
-  <project path="vendor/aospa/apps/Glimpse" name="LineageOS/android_packages_apps_Glimpse" remote="github" revision="lineage-22.1" />
+  <project path="vendor/aospa/apps/Glimpse" name="LineageOS/android_packages_apps_Glimpse" remote="github" revision="lineage-22.2" />
 
   <!-- Vendor (QCOM QSSI) -->
   <remove-project name="platform/vendor/qcom-opensource/core-utils" />
