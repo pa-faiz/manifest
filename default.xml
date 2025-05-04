@@ -45,11 +45,22 @@
   <remote  name="github-ssh"
            fetch="ssh://git@github.com" />
 
+  <remote  name="gitlab-ssh"
+           fetch="ssh://git@gitlab.com"
+           revision="vauxite" />
+
   <remote  name="gitlab"
            fetch="https://gitlab.com" />
 
+  <!-- Local Remote -->
+  <remote  name="faiz"
+           fetch="https://github.com/pa-faiz"
+           revision="vauxite" />
+
   <include name="aosp.xml"/>
   <include name="aospa.xml"/>
+  <include name="timo.xml"/>
+  <include name="modules.xml"/>
   <include name="obsolete.xml"/>
 
 </manifest>
