@@ -114,6 +114,8 @@
   <!-- Vendor (QCOM QSSI) -->
   <remove-project name="platform/vendor/qcom-opensource/bluetooth" />
   <project path="vendor/qcom/opensource/commonsys/bluetooth" name="AOSPA/android_vendor_qcom-opensource_bluetooth-commonsys" remote="aospa" />
+  <remove-project path="vendor/qcom/opensource/crosvm-gunyah" />
+  <project path="vendor/qcom/opensource/crosvm-gunyah" name="platform/vendor/qcom-opensource/crosvm-gunyah" revision="7ecc64fbc799df2d791e51a0f0d2203186dd3bef" remote="clo-la" />
   <remove-project name="platform/vendor/qcom-opensource/display-commonsys-intf" />
   <project path="vendor/qcom/opensource/commonsys-intf/display" name="AOSPA/android_vendor_qcom_opensource_commonsys-intf_display" remote="aospa" />
 
