@@ -53,6 +53,10 @@
            fetch="https://github.com/pa-faiz"
            revision="vauxite" />
 
+  <remote  name="gitlab-ssh"
+          fetch="ssh://git@gitlab.com/mohdfazil130155"
+          revision="sun-oplus" />
+
   <include name="aosp.xml"/>
   <include name="aospa.xml"/>
   <include name="pa-faiz.xml"/>
