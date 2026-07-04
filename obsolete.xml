@@ -26,6 +26,7 @@
   <remove-project name="meta-qti-touch" />
   <remove-project name="platform/vendor/nxp/opensource/driver" />
   <remove-project name="platform/vendor/opensource/dataipa" />
+  <remove-project name="platform/vendor/opensource/data-eth" />
   <remove-project name="platform/vendor/opensource/mm-sys-kernel" />
   <remove-project name="platform/vendor/opensource/synx-kernel" />
   <remove-project name="platform/vendor/opensource/touch-drivers" />
