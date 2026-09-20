@@ -63,9 +63,11 @@
   <remove-project name="AOSPA/android_bootable_recovery" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="faiz" />  -->
 
-  <!-- System 
+  <!-- System -->
   <remove-project name="AOSPA/android_system_core" />
-  <project path="system/core" name="android_system_core" remote="faiz" />-->
+  <project path="system/core" name="android_system_core" remote="faiz" />
+  <remove-project name="AOSPA/android_system_fs_fs_mgr" />
+  <project path="system/fs/fs_mgr" name="android_system_fs_fs_mgr" remote="faiz" />
 
   <!-- Vendor (pa-faiz) -->
   <remove-project name="AOSPA/android_vendor_aospa" />
