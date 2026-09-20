@@ -23,7 +23,7 @@
     <linkfile dest="vendor/qcom/build/tasks/generate_extra_images.mk" src="generate_extra_images.mk"/>
   </project>
   <remove-project name="AOSPA/android_device_qcom_sepolicy_vndr" />
-  <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="faiz" />
+  <project path="device/qcom/sepolicy_vndr" name="aospa-op13/android_device_qcom_sepolicy_vndr" remote="github" revision="calcite" />
 
   <!-- Frameworks 
   <remove-project name="AOSPA/android_frameworks_base" />
@@ -63,9 +63,11 @@
   <remove-project name="AOSPA/android_bootable_recovery" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="faiz" />  -->
 
-  <!-- System 
+  <!-- System -->
   <remove-project name="AOSPA/android_system_core" />
-  <project path="system/core" name="android_system_core" remote="faiz" />-->
+  <project path="system/core" name="android_system_core" remote="faiz" />
+  <remove-project name="AOSPA/android_system_fs_fs_mgr" />
+  <project path="system/fs/fs_mgr" name="android_system_fs_fs_mgr" remote="faiz" />
 
   <!-- Vendor (pa-faiz) -->
   <remove-project name="AOSPA/android_vendor_aospa" />
