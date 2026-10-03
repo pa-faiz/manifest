@@ -1,20 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <refs>
-    <image name="AUDIO_HANDSET.LA.10.0.R1" project="techpack/audio/manifest" server="https://git.codelinaro.org/clo/la" tag="AU_TECHPACK_AUDIO_HANDSET.LA.10.0.R1.00.00.00.000.061" targets="dummy"/>
-    <image name="BTFM.LA.1.0.R1" project="techpack/btfm/manifest" server="https://git.codelinaro.org/clo/la" tag="AU_TECHPACK_BTFM.LA.1.0.R1.00.00.00.000.057" targets="dummy"/>
-    <image name="CAMERA.LA.5.0.R1" project="techpack/camera/manifest" server="https://git.codelinaro.org/clo/la" tag="AU_TECHPACK_CAMERA.LA.5.0.R1.00.00.00.000.066" targets="dummy"/>
-    <image name="CV.LA.2.1.R1" project="techpack/cv/manifest" server="https://git.codelinaro.org/clo/la" tag="AU_TECHPACK_CV.LA.2.1.R1.00.00.00.000.032" targets="dummy"/>
-    <image name="DISPLAY.LA.5.0.R1" project="techpack/display/manifest" server="https://git.codelinaro.org/clo/la" tag="AU_TECHPACK_DISPLAY.LA.5.0.R1.00.00.00.000.061" targets="dummy"/>
-    <image name="GRAPHICS.LA.15.0.R1" project="techpack/graphics/manifest" server="https://git.codelinaro.org/clo/la" tag="AU_TECHPACK_GRAPHICS.LA.15.0.R1.00.00.00.000.053" targets="dummy"/>
-    <image name="KERNEL.PLATFORM.4.0.R1" project="kernelplatform/manifest" server="https://git.codelinaro.org/clo/la" tag="AU_LINUX_KERNEL.PLATFORM.4.0.R1.00.00.00.061.111" targets="dummy"/>
-    <image name="LA.QSSI.15.0.R1" project="la/system/manifest" server="https://git.codelinaro.org/clo/la" tag="AU_LINUX_ANDROID_LA.QSSI.15.0.R1.11.00.00.1136.145.00" targets="dummy"/>
-    <image name="SENSORS.LA.5.0.R2" project="techpack/sensors/manifest" server="https://git.codelinaro.org/clo/la" tag="AU_TECHPACK_SENSORS.LA.5.0.R2.00.00.00.000.031" targets="dummy"/>
-    <image name="VIDEO.LA.5.0.R1" project="techpack/video/manifest" server="https://git.codelinaro.org/clo/la" tag="AU_TECHPACK_VIDEO.LA.5.0.R1.00.00.00.000.049" targets="dummy"/>
-    <image name="WLAN.LA.1.0.R1" project="techpack/wlan/manifest" server="https://git.codelinaro.org/clo/la" tag="AU_TECHPACK_WLAN.LA.1.0.R1.00.00.00.000.075" targets="dummy"/>
-  </refs>
-  <remote fetch="https://git.codelinaro.org/clo/la" name="clo-la"/>
-  <default remote="clo-la" revision="dummy_revision" sync-c="true" sync-tags="false"/>
   <project remote="clo-la" name="device/qcom/common" path="device/qcom/common" revision="5b46bfadebeb6a249dbce6a1c256636009337e61" upstream="refs/heads/qcom-devices.lnx.15.0.r1-rel">
     <linkfile dest="vendor/qcom/build/tasks/generate_extra_images.mk" src="generate_extra_images.mk"/>
   </project>
