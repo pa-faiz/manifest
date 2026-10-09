@@ -77,4 +77,12 @@
   <remove-project name="proprietary_vendor_qcom_common" />
   <project path="vendor/qcom/common" name="proprietary_vendor_qcom_common" remote="faiz" />
 
+  <!-- Vendor (QCOM Vendor) -->
+  <remove-project name="AOSPA/android_vendor_nxp_opensource_keymaster" />
+  <project path="vendor/nxp/opensource/keymaster" name="pa-faiz/android_vendor_nxp_opensource_keymaster" remote="github" revision="calcite" />
+  <remove-project name="AOSPA/android_vendor_qcom-opensource_usb" />
+  <project path="vendor/qcom/opensource/usb" name="pa-faiz/android_vendor_qcom-opensource_usb" remote="github" revision="calcite" />
+  <remove-project name="AOSPA/android_hardware_qcom_thermal" />
+  <project path="vendor/qcom/opensource/thermal-hal" name="aospa-op13/android_hardware_qcom_thermal" remote="github" revision="calcite" />
+
 </manifest>
